@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lesson Four: Box Model Activity</title>
+    <style>
+      /*Add CSS style here using the cats class*/
+      /*.cats {
+        border-style: none;
+        border-width: 500px;
+        background-color: grey;
+        font-size: 30px;
+      }*/
+      .content-box {
+        box-sizing: content-box;
+        height: 5em;
+        width: 5em;
+        padding: 4em;
+        border: 1em solid;
+        margin: 1em;
+      }
+
+      #border-box {
+        box-sizing: border-box;
+      }
+
+     </style>
+  </head>
+  <body>
+    <article>
+
+      <header>
+        <h1>Cats and Dogs Heart Boxes</h1>
+      </header>
+
+      <section>
+        <h2>If They Fits, They Sits</h2>
+        <article class="content-box">
+          <h3>BIG CATS like boxes too!</h3>
+          <a href="https://www.youtube.com/watch?reload=9&v=J11uu8L8FTY">Video evidence!</a>
+          <p>Big cats like refrigerator boxes.</p>
+          <p>House cats like shoe boxes.</p>
+        </article>
+        <article class="content-box" id="border-box">
+          <h3>Dogs are funny!!!</h3>
+          <h3>BIG CATS like boxes too!</h3>
+          <a href="https://www.youtube.com/watch?reload=9&v=J11uu8L8FTY">Video evidence!</a>
+          <p>Big cats like refrigerator boxes.</p>
+          <p>House cats like shoe boxes.</p>
+      </article>
+      </section>
+
+      <footer>
+        <h5>Copyright</h5>
+      </footer>
+
+    </article>
+  </body>
