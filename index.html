@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <title>Portfolio Homepage</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cfe001564d.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -25,7 +29,7 @@
     <hr/>
 
       <section>
-        <h2>- UW Student Information -</h2>
+        <h2>- UW Student Information <i class="fa-solid fa-building-columns"></i> -</h2>
           <ul>
             <li><strong>Name:</strong> Ryan Mamuad</li>
             <li><strong>From:</strong> Honolulu, HI</li>
@@ -37,20 +41,49 @@
       </section>
 
       <section>
-        <h2>- Photos - </h2>
-        <img src="../portfolio/images/sunsetcar_longbeach.png" alt="2015 Mazda CX-5 next to the beach sunset at Long Beach, Washington.">
-        <img src="../portfolio/images/kingstreetstation.png" alt="Wearing a Seahawks hat at the King Train Station in Seattle, Washington.">
-        <img src="../portfolio/images/cheesecake.jpg" alt="Baked a cheesecake with a chocolate gnache and sliced strawberries.">
-        <img src="../portfolio/images/flyingkick_picnicpointpark.png" alt="Friends doing a flying kick on the beach at Picnic Point Park, Washington.">
-        <img src="../portfolio/images/spiritbomb_longbeach.jpg" alt="Me posing infront of a sunset at Long Beach, Washington.">
-        <img src="../portfolio/images/chickenkarage_buddy.jpg" alt="My parents' dog Buddy eating a piece of chicken.">
-        <img src="../portfolio/images/hiking.jpg" alt="Lifting a log during a hike.">
-        <img src="../portfolio/images/biking_logboom.jpg" alt="My giant hybrid bike posed at Log Boom Park.">
-        <img src="../portfolio/images/standuppaddleboard_rattlesnake.JPG" alt="Standup paddle boarding at Rattle Snake Lake.">
+          <h2>- Photos <i class="fa-solid fa-camera-retro"> - </i></h2>
+          <div class="imagecontainer">
+              <img src="../portfolio/images/sunsetcar_longbeach.png" alt="2015 Mazda CX-5 next to the beach sunset at Long Beach, Washington.">
+              <img src="../portfolio/images/kingstreetstation.png" alt="Wearing a Seahawks hat at the King Train Station in Seattle, Washington.">
+              <img src="../portfolio/images/cheesecake.jpg" alt="Baked a cheesecake with a chocolate gnache and sliced strawberries.">
+              <img src="../portfolio/images/flyingkick_picnicpointpark.png" alt="Friends doing a flying kick on the beach at Picnic Point Park, Washington.">
+              <img src="../portfolio/images/spiritbomb_longbeach.jpg" alt="Me posing infront of a sunset at Long Beach, Washington.">
+              <img src="../portfolio/images/chickenkarage_buddy.jpg" alt="My parents' dog Buddy eating a piece of chicken.">
+              <img src="../portfolio/images/hiking.jpg" alt="Lifting a log during a hike.">
+              <img src="../portfolio/images/biking_logboom.jpg" alt="My giant hybrid bike posed at Log Boom Park.">
+              <img src="../portfolio/images/standuppaddleboard_rattlesnake.JPG" alt="Standup paddle boarding at Rattle Snake Lake.">
+          </div>
       </section>
 
     <footer>
-      <h5>Copyright</h5>
+      <div class="flex-container">
+        <div>
+          <h5 class="footer__headline">Navigation</h5>
+          <ul class="footer__list">
+            <li>nav 1</li>
+            <li>nav 2</li>
+            <li>nav 3</li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer__headline">Follow Me</h5>
+          <ul class="footer__list">
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Tik Tok</li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer__headline">Contact</h5>
+          <ul class="footer__list">
+            <li>Adress</li>
+            <li>Phone</li>
+            <li>Email</li>
+            <li>Website</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer_copyright">© 2018 Come Adventure with Me!, LLC | Seattle, WA</p>
     </footer>
 
   </body>

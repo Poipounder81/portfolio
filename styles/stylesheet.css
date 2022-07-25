@@ -1,4 +1,8 @@
 
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .top {
   margin: auto;
   background-color: #303030;
@@ -14,7 +18,7 @@
 
  .navlinks a {
   font-size: 20px;
-  font-family: arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #8c8c8c;
   margin-right: 18px;
   text-decoration: none;
@@ -39,7 +43,7 @@
 
 h1 {
   color: #F8F8FF;
-  font-family: arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   font-weight: bold;
   margin-top: 0px;
@@ -48,11 +52,12 @@ h1 {
 
 p {
   color: #000000;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
   color: #000000;
-  font-family: arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: bold;
   margin-top: 0px;
@@ -61,7 +66,7 @@ h2 {
 
 h3 {
   color: #000000;
-  font-family: arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: bold;
   margin-top: 0px;
@@ -73,4 +78,35 @@ img {
   border-color: black;
   border-width: 1px;
   width: 25%;
+}
+
+.imagecontainer {
+  align-content: center;
+}
+
+footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__headline {
+  font-weight: bold;
+}
+
+.footer__list {
+  list-style: none;
+  text-align: center;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_copyright {
+  font-size: 12px;
 }
