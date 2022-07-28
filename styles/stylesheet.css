@@ -9,6 +9,18 @@
   overflow: hidden;
 }
 
+.wrapperheader > * {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  background-color: #303030;
+  font-size: 20px;
+  text-align: center;
+  margin: 50px 100px 30px 50px;
+}
+
 .navlinks {
   list-style-type: none;
   margin: 0;
@@ -17,28 +29,18 @@
 }
 
  .navlinks a {
+  flex: 1;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   color: #8c8c8c;
   margin-right: 18px;
   text-decoration: none;
+  transition: all 0.5s ease-out;
 }
 
-.navlinks a:hover {
+.navlinks a:hover, a:focus {
   background-color: #555;
   color: white;
-}
-
-.navbar {
-  background-color: #303030;
-  margin: auto;
-  font-size: 20px;
-  margin: 50px 100px 30px 50px;
-  float: right;
-}
-
-.wrapperheader > * {
-  display: inline-block;
 }
 
 h1 {
@@ -46,6 +48,7 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 1px;
 }
@@ -60,6 +63,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 1px;
 }
@@ -73,6 +77,40 @@ h3 {
   margin-bottom: 1px;
 }
 
+section a {
+  text-decoration: none;
+  color: #000000;
+}
+
+section {
+  transition: border 4s ease-in 1s;
+}
+
+section:hover {
+  border: 3px solid #000000;
+}
+
+section a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+.projectsreadings ul li:nth-child(odd) {
+  color: blue;
+}
+
+.projectsreadings ul li:nth-child(even) {
+  color: green;
+}
+
+.imagecontainer {
+  align-content: center;
+}
+
 img {
   border-style: double;
   border-color: black;
@@ -80,8 +118,16 @@ img {
   width: 25%;
 }
 
-.imagecontainer {
-  align-content: center;
+img:hover {
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.bottom {
+  margin: auto;
+  background-color: #303030;
+  overflow: hidden;
 }
 
 footer {
@@ -96,17 +142,22 @@ footer {
 }
 
 .footer__headline {
+  font-size: 14px;
   font-weight: bold;
+  color: #8c8c8c;
+  text-decoration: underline;
 }
 
 .footer__list {
   list-style: none;
   text-align: center;
   font-size: 12px;
+  color: #8c8c8c;
   padding: 0;
   margin: 0;
 }
 
 .footer_copyright {
   font-size: 12px;
+  color: #8c8c8c;
 }
